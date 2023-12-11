@@ -5,13 +5,13 @@ function buttonClick(){
 	if (one.value == "ellipse(100,70,120,120);"){
 		text1.innerHTML = "正解";
 	}else{
-		text1.innerHTML = "不正解　解答：ellipse(100,70,120,120);";
+		text1.innerHTML = "不正解　解答：ellipse(100, 70, 120, 120);";
 	}
 
 	if (two.value == "rect(180,30,200,60);"){
 		text2.innerHTML = "正解";
 	}else{
-		text2.innerHTML = "不正解　解答：rect(180,30,200,60);";
+		text2.innerHTML = "不正解　解答：rect(180, 30, 200, 60);";
 	}
 
 	
